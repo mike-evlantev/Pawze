@@ -1,0 +1,35 @@
+﻿<div class="wrapper">
+    <form class="register">
+        <div class="title text-center">
+            <h3>Review Your Order</h3>
+            <small><a href="#/app/dashboard">Edit Box</a></small>
+        </div>
+        <div style="margin-top:0px; margin-bottom: 10px;">
+            <strong>
+                Your Box
+                <span class="pull-right">{{getTotal() | currency:'$'}}</span>
+            </strong>
+        </div>
+        <table class="table table-striped">
+            <tbody>
+                <tr ng-repeat="boxItem in box.BoxItems">
+                    <td>{{boxItem.Inventory.Name}}</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr />
+        <div class="clearfix">
+            <div class="pull-right">
+                <p><strong>Subtotal</strong><span class="pull-right" style="margin-left:10px;">{{getSubTotal() | currency:'$'}}</span></p>
+                <span><strong>Order Total</strong><span class="pull-right" style="margin-left:10px;">{{getOrderTotal() | currency:'$'}}</span></span>
+            </div>
+        </div>
+        <hr />
+        <div>
+            <span style="color: red;">Your order will be shipped on the 20th of this month.</span>
+        </div>
+        <div>
+            <button id="customButton" class="pull-right">Checkout</button>
+        </div>
+    </form>
+</div>

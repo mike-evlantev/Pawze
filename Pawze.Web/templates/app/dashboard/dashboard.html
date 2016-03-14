@@ -1,0 +1,17 @@
+﻿<div class="wrapper">
+    <form class="register">
+        <p class="title">Build Your Box</p>
+        <div class="dropdown" ng-repeat="boxItem in box.BoxItems">
+            <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="background-color:darkgray; min-width:auto; width:100%;margin-top:20px; position:relative;">
+                {{boxItem.Inventory.Name}}
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li ng-repeat="inventory in inventories"><a ng-click="selectInventory(inventory, boxItem)">{{inventory.Name}}</a></li>
+            </ul>
+        </div>
+        <button ng-click="save()">
+            <span class="state">Save</span>
+        </button>
+    </form>
+</div>

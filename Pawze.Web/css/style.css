@@ -1,0 +1,691 @@
+/*
+
+Template 2076 Zentro
+
+http://www.tooplate.com/view/2076-zentro
+
+*/
+
+#homepageContainer {
+    background: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+    #homepageContainer .heading {
+        font-size: 22px;
+        font-weight: 500;
+    }
+
+    #homepageContainer .subheading {
+        font-size: 16px;
+        padding-bottom: 60px;
+    }
+
+    #homepageContainer p {
+        color: #848484;
+        font-weight: 400;
+        font-size: 16px;
+        letter-spacing: 0.4px;
+        line-height: 28px;
+    }
+
+    #homepageContainer hr {
+        border-top: 2px solid #828282;
+        width: 120px;
+    }
+
+    #homepageContainer #menu, #gallery, #team {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    #homepageContainer #menu, #contact {
+        background: #f0f0f0;
+    }
+
+    #homepageContainer .parallax-section {
+        background-attachment: fixed !important;
+        background-size: cover !important;
+    }
+
+    /* preloader section */
+    #homepageContainer .preloader {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 99999;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        background: none repeat scroll 0 0 #fff;
+    }
+
+    #homepageContainer .sk-spinner-pulse {
+        width: 40px;
+        height: 40px;
+        background-color: #F6D76B;
+        border-radius: 100%;
+        -webkit-animation: sk-pulseScaleOut 1s infinite ease-in-out;
+        animation: sk-pulseScaleOut 1s infinite ease-in-out;
+    }
+
+@-webkit-keyframes sk-pulseScaleOut {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+@keyframes sk-pulseScaleOut {
+    0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+
+/* start navigation */
+#homepageContainer .navbar-default {
+    background: #ffffff;
+    box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
+    border: none;
+    margin-bottom: 0;
+}
+
+#homepageContainer .navbar-brand, .navbar-nav li a {
+    line-height: 28px;
+}
+
+#homepageContainer .navbar-default .navbar-brand {
+    color: #5C5C5C;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+#homepageContainer .navbar-default .navbar-nav li a {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+/* home section */
+#homepageContainer #home {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1) );
+    /*url('../images/../images/DogWithTreat.jpg') 50% 0 repeat-y fixed;*/
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    opacity: 0.8;
+}
+
+/* videocontent for IE9 */
+#homepageContainer video {
+    width: 100%;
+    height: 100%;
+}
+
+#homepageContainer .crt-parallaxvideo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: -100;
+    overflow: hidden;
+}
+
+#homepageContainer #treats {
+    margin-top: 25px;
+}
+/* videocontent for iPad */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .ipad-portrait {
+        height: 290px;
+    }
+    /* your css rules for ipad portrait */
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape) {
+    .ipad-landscape {
+        height: 360px;
+    }
+    /* your css rules for ipad landscape */
+}
+
+/*#homepageContainer .crt-parallaxvideo{ 
+    height: 300px;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    min-width: 100vw;
+}
+
+#homepageContainer .crt-parallaxvideo video{ 
+    width: 100vw;
+    position: absolute;
+    left: 0;
+    top:0;
+    z-index: -100;    	
+    height: 100vh;
+}
+#homepageContainer .crt-parallaxvideo h1 {
+    color: #053f80;
+    font-size: 76px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;*/
+
+
+#homepageContainer #home h1 {
+    font-size: 20px;
+    letter-spacing: 8px;
+    font-style: normal;
+    padding-top: 10px;
+}
+
+#homepageContainer #home h2 {
+    color: white;
+}
+
+
+#homepageContainer #home .btn {
+    background: transparent;
+    border-radius: 0;
+    border: 3px solid #ffffff;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 16px 42px;
+    margin-top: 40px;
+    transition: all 0.4s ease-in-out;
+}
+
+    #homepageContainer #home .btn:hover {
+        background: #fff;
+        color: #202020;
+    }
+
+/* treats section */
+#homepageContainer #treats {
+    text-align: center;
+}
+
+#homepageContainer #what img {
+    width: 350px;
+    height: 300px;
+}
+
+#homepageContainer #treats h3 {
+    font-size: 18px;
+    line-height: 4px;
+}
+
+#homepageContainer #treats h4 {
+    color: #5C5C5C;
+    padding-top: 24px;
+}
+
+#homepageContainer #treats p {
+    color: black;
+}
+
+#homepageContainer #treats .col-md-4 {
+    padding-top: 42px;
+}
+
+#homepageContainer #treats img {
+    width: 350px;
+    height: 300px;
+}
+
+/* how does it work section */
+#homepageContainer #how h4 {
+    line-height: 1.5;
+}
+
+#homepageContainer #how .col-md-8 {
+    padding-bottom: 42px;
+}
+
+#homepageContainer #how .col-md-6 {
+    padding-bottom: 18px;
+}
+
+#homepageContainer #how span {
+    color: #5C5C5C;
+}
+
+/* make a box section */
+#homepageContainer #box {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+    #homepageContainer #box .col-md-4 {
+        padding-top: 52px;
+    }
+
+    #homepageContainer #box img {
+        width: 100%;
+        padding-bottom: 18px;
+    }
+
+    #homepageContainer #box .col-md-4 div {
+        position: relative;
+        bottom: 18px;
+        padding-bottom: 12px;
+    }
+/*#box h3 {
+  font-size: 18px;
+  line-height: 8px;
+}
+#box h4 {
+    font-size: 14px;
+    line-height: 8px;
+}*/
+
+/* contact section */
+#homepageContainer #contact {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+    #homepageContainer #contact .col-md-8 {
+        margin-bottom: 32px;
+    }
+
+    #homepageContainer #contact .form-control {
+        background: #ffffff;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        transition: all 0.4s ease-in-out;
+    }
+
+        #homepageContainer #contact .form-control:focus {
+            border-color: #f9f9f9;
+        }
+
+    #homepageContainer #contact input {
+        height: 48px;
+    }
+
+        #homepageContainer #contact input[type="submit"] {
+            background: transparent;
+            border: 2px solid #999;
+            border-radius: 10px;
+            letter-spacing: 2px;
+            margin-top: 12px;
+            height: 50px;
+        }
+
+            #homepageContainer #contact input[type="submit"]:hover {
+                background: #999;
+                color: #ffffff;
+                padding-top: 80px;
+                padding-bottom: 100px;
+            }
+
+
+
+#homepageContainer #contact .col-md-8 {
+    margin-bottom: 32px;
+}
+
+#homepageContainer #contact .form-control {
+    background: #ffffff;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+    #homepageContainer #contact .form-control:focus {
+        border-color: #f9f9f9;
+    }
+
+#homepageContainer #contact #homeregbutton {
+    height: 48px;
+}
+
+    #homepageContainer #contact #homeregbutton[type="submit"] {
+        background: transparent;
+        border: 2px solid #999;
+        border-radius: 10px;
+        letter-spacing: 2px;
+        margin-top: 12px;
+        height: 50px;
+    }
+
+        #homepageContainer #contact #homeregbutton[type="submit"]:hover {
+            background: #999;
+            color: #ffffff;
+        }
+
+#homepageContainer #homeregbutton {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    padding-top: 1em;
+    letter-spacing: 4px;
+}
+
+/* footer section */
+#homepageContainer footer {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1) ), url('../images/../images/DoggieTreatBags.jpg') 50% 0 repeat-y fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+#homepageContainer footer h2 {
+    padding-bottom: 14px;
+}
+
+#homepageContainer footer h3 {
+    padding-top: 8px;
+}
+
+#homepageContainer footer p {
+    color: #ffffff;
+}
+
+#homepageContainer footer span {
+    font-weight: bold;
+    padding-left: 24px;
+}
+
+#homepageContainer footer .ph, footer .address {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+#homepageContainer footer .fa {
+    font-size: 12px;
+    padding-right: 10px;
+}
+
+/* social icon */
+#homepageContainer .social-icon {
+    padding: 0;
+}
+
+    #homepageContainer .social-icon li {
+        list-style: none;
+        display: inline-block;
+        padding: 0;
+    }
+
+        #homepageContainer .social-icon li a {
+            background: #f0f0f0;
+            border-radius: 50%;
+            color: #5C5C5C;
+            font-size: 16px;
+            width: 48px;
+            height: 48px;
+            line-height: 48px;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.4s ease-in-out;
+            margin-top: 12px;
+            margin-right: 16px;
+            top: 0;
+            position: relative;
+            padding: 0;
+        }
+
+            #homepageContainer .social-icon li a:hover {
+                background: #F6D76B;
+                top: 5px;
+            }
+
+/* copyright section */
+#homepageContainer #copyright {
+    background: #343434;
+    color: #ffffff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+ #homepageContainer #copyright p {
+    color: #ffffff;
+}
+
+#homepageContainer #copyright a {
+    color: #ffffff;
+}
+
+    #homepageContainer #copyright a:hover {
+        color: #FF0;
+    }
+
+ #homepageContainer #copyright p {
+    color: #ffffff;
+}
+
+#homepageContainer #copyright a {
+    color: #ffffff;
+}
+
+    #homepageContainer #copyright a:hover {
+        color: #FF0;
+    }
+
+#homepageContainer #how {
+    margin-top: 1em;
+}
+
+
+/* what is pawze section */
+
+/*********************************
+    inventory section home page
+*********************************/
+#inventorysection {
+    margin-top: 3em;
+}
+/***********************
+     BEEF
+************************/
+
+.details {
+    padding-top: 7em;
+    font-weight: bolder;
+}
+
+.back .details {
+    padding-top: 25%;
+}
+
+.flip-container:hover .creation {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+}
+
+.creation {
+    width: 350px;
+    height: 350px;
+    margin: 10px;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    transition: all 0.6s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.front, .back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.back {
+    z-index: 800;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+}
+
+.creation p {
+    color: #666;
+    display: block;
+    width: auto;
+    text-align: center;
+    line-height: 200px;
+    margin: 0 30px;
+    font-size: 27px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 1px #999;
+    font-family: sans-serif;
+}
+
+    .creation p span {
+        vertical-align: middle;
+        display: inline-block;
+        line-height: 1.4;
+    }
+
+.cont {
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    border: 8px solid #1abc9c;
+}
+
+#beef .flip-container .creation .front .cont {
+    background-image: url('../images/beef_veggie_morsels.jpg');
+    background-size: cover;
+}
+
+
+/***********************
+     PORK LIVER 
+************************/
+
+#porkliver .flip-container .creation .front .cont {
+    background-image: url('../images/chicken_liver.jpg');
+    background-size: cover;
+}
+
+/***********************
+     CHICKEN HEART 
+************************/
+
+#chickenheart .flip-container .creation .front .cont {
+    background-image: url('../images/chicken_heart.jpg');
+    background-size: cover;
+}
+
+/***********************
+      PUMPKIN 
+************************/
+
+#pumpkin .flip-container .creation .front .cont {
+    background-image: url('../images/Pumpkin.jpg');
+    background-size: cover;
+}
+
+/***********************
+     SALMON STEAKS
+************************/
+
+#salmonsteak .flip-container .creation .front .cont {
+    background-image: url('../images/salmon_steak.jpg');
+    background-size: cover;
+}
+
+/***********************
+     DUCK LIVER 
+************************/
+#duckliver .flip-container .creation .front .cont {
+    background-image: url('../images/duck_liver.jpg');
+    background-size: cover;
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+    .creation {
+        margin: 10px auto !important;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    .creation {
+        width: 250px;
+        height: 300px;
+    }
+
+    .cont {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .creation {
+        width: 350px;
+        height: 350px;
+    }
+
+    .cont {
+        width: 350px;
+        height: 350px;
+    }
+}

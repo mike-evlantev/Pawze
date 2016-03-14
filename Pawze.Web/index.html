@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <title>Pawze... Doggone Easy!</title>
+    <meta charset="utf-8" />
+
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="bower_components/bootstrap-select/dist/css/bootstrap-select.css" rel="stylesheet" />
+    <link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet" />
+
+    <link href="css/pawze.less" rel="stylesheet/less" type="text/css" />
+    <link href="css/accountsettings.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/nivo-lightbox.css">
+    <link rel="stylesheet" href="css/nivo_themes/default/default.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500' rel='stylesheet' type='text/css'>
+    <link href="css/pawzeuniformblue.css" rel="stylesheet" />
+
+    
+</head>
+
+<body>
+
+    <div ui-view></div>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/bootstrap-select/dist/js/bootstrap-select.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-resource/angular-resource.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="bower_components/angular-local-storage/dist/angular-local-storage.js"></script>
+    <script src="bower_components/ngSmoothScroll/lib/angular-smooth-scroll.js"></script>
+    <script src="bower_components/bootbox.js/bootbox.js"></script>
+
+    <script src="js/app.js"></script>
+    <script src="js/infrastructure/authentication.interceptor.js"></script>
+    <script src="js/infrastructure/authentication.service.js"></script>
+    <script src="js/app/app.ctrl.js"></script>
+
+    <script src="js/app/home/home.ctrl.js"></script>
+    <script src="js/app/home/register/register.ctrl.js"></script>
+    <script src="js/app/home/login/login.ctrl.js"></script>
+    
+    <script src="js/app/dashboard/dashboard.ctrl.js"></script>
+    
+    <script src="js/app/confirmation/confirmation.ctrl.js"></script>
+    <script src="js/app/summary/summary.ctrl.js"></script>
+
+    <script src="js/app/accountsettings/accountsettings.ctrl.js"></script>
+
+    <script src="js/resource/account.resource.js"></script>
+    <script src="js/resource/box.resource.js"></script>
+    <script src="js/resource/boxitem.resource.js"></script>
+    <script src="js/resource/inventory.resource.js"></script>
+    <script src="js/resource/pawzeconfiguration.resource.js"></script>
+    <script src="js/resource/pawzeuser.resource.js"></script>
+    <script src="js/resource/role.resource.js"></script>
+    <script src="js/resource/shipment.resource.js"></script>
+    <script src="js/resource/subscription.resource.js"></script>
+    <script src="js/resource/userrole.resource.js"></script>
+    <script src="bower_components/less/dist/less.js"></script>
+    
+
+    <!-- JAVASCRIPT JS FILES -->
+    <script src="js/app/home/jquery.parallax.js"></script>
+    <script src="js/app/home/nivo-lightbox.min.js"></script>
+    <script src="js/app/home/wow.min.js"></script>
+
+    <script src="https://checkout.stripe.com/checkout.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pawze.API", "Pawze.API\Pawze.API.csproj", "{93510882-7327-4676-8047-80A71883D10E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pawze.Core", "Pawze.Core\Pawze.Core.csproj", "{2C4665CF-E7F0-47E4-AA9F-C14D91FFCF68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pawze.Data", "Pawze.Data\Pawze.Data.csproj", "{A6FEC569-265E-46C5-8D7D-06609ACC57AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pawze.Test", "Pawze.Test\Pawze.Test.csproj", "{311D9D15-E2DA-45A9-8907-E3FD914514D5}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Pawze.Web", "Pawze.Web\", "{6A15BF49-5D4C-431B-AC03-BA5C61E456C7}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_53596"
+		Debug.AspNetCompiler.PhysicalPath = "Pawze.Web\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53596\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_53596"
+		Release.AspNetCompiler.PhysicalPath = "Pawze.Web\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_53596\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "53596"
+		SlnRelativePath = "Pawze.Web\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93510882-7327-4676-8047-80A71883D10E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93510882-7327-4676-8047-80A71883D10E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93510882-7327-4676-8047-80A71883D10E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93510882-7327-4676-8047-80A71883D10E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C4665CF-E7F0-47E4-AA9F-C14D91FFCF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4665CF-E7F0-47E4-AA9F-C14D91FFCF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4665CF-E7F0-47E4-AA9F-C14D91FFCF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4665CF-E7F0-47E4-AA9F-C14D91FFCF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FEC569-265E-46C5-8D7D-06609ACC57AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FEC569-265E-46C5-8D7D-06609ACC57AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FEC569-265E-46C5-8D7D-06609ACC57AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FEC569-265E-46C5-8D7D-06609ACC57AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{311D9D15-E2DA-45A9-8907-E3FD914514D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{311D9D15-E2DA-45A9-8907-E3FD914514D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{311D9D15-E2DA-45A9-8907-E3FD914514D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{311D9D15-E2DA-45A9-8907-E3FD914514D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A15BF49-5D4C-431B-AC03-BA5C61E456C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A15BF49-5D4C-431B-AC03-BA5C61E456C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A15BF49-5D4C-431B-AC03-BA5C61E456C7}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A15BF49-5D4C-431B-AC03-BA5C61E456C7}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,22 @@
+﻿<div id="registerbutton">
+    <a href="#/register" class="smoothScroll btn btn-default">Register</a>
+</div>
+
+<div class="wrapper">
+    <form class="login">
+        <p class="title">Log in</p>
+        <input type="text" placeholder="Email Address" autofocus ng-model="loginData.username" />
+        <i class="fa fa-user"></i>
+        <input type="password" placeholder="Password" ng-model="loginData.password" />
+        <i class="fa fa-key"></i>
+        <a href="#">Forgot your password?</a>
+        
+            <button ng-click="login()">
+                <i class="spinner"></i>
+                <span class="state">Log in</span>
+            </button>
+        
+    </form>
+    
+</div>
+

@@ -1,0 +1,29 @@
+﻿<div class="wrapper">
+    <form class="register">
+        <p class="title">Update Your Details</p>
+        <input type="text" placeholder="First Name" autofocus ng-model="user.FirstName" />
+        <i class="fa fa-user"></i>
+        <input type="text" placeholder="Last Name" ng-model="user.LastName" />
+        <i class="fa fa-user"></i>
+        <input type="text" placeholder="Address1" ng-model="user.Address1" />
+        <i class="fa fa-key"></i>
+        <input type="text" placeholder="Address2" ng-model="user.Address2" />
+        <i class="fa fa-key"></i>
+        <input type="text" placeholder="City" ng-model="user.City" />
+        <i class="fa fa-key"></i>
+        <input type="text" placeholder="State" ng-model="user.State" />
+        <i class="fa fa-key"></i>
+        <input type="text" placeholder="ZIP Code" ng-model="user.PostCode" />
+        <i class="fa fa-key"></i>
+
+        <button ng-click="save()">
+            <span class="state">Save</span>
+        </button>
+
+
+    </form>
+
+    <button class="btn btn-danger" ng-click="cancel()" ng-show="cancellation" style="margin-top:50px;">
+        <span class="state">Cancel Subscription</span>
+    </button>
+</div>

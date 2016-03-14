@@ -1,0 +1,10 @@
+C:\dev\Pawze\Pawze\Pawze.Core\bin\Debug\Pawze.Core.dll
+C:\dev\Pawze\Pawze\Pawze.Core\bin\Debug\Pawze.Core.pdb
+C:\dev\Pawze\Pawze\Pawze.Core\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\dev\Pawze\Pawze\Pawze.Core\bin\Debug\Newtonsoft.Json.dll
+C:\dev\Pawze\Pawze\Pawze.Core\bin\Debug\Stripe.net.dll
+C:\dev\Pawze\Pawze\Pawze.Core\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\dev\Pawze\Pawze\Pawze.Core\bin\Debug\Newtonsoft.Json.xml
+C:\dev\Pawze\Pawze\Pawze.Core\obj\Debug\Pawze.Core.csprojResolveAssemblyReference.cache
+C:\dev\Pawze\Pawze\Pawze.Core\obj\Debug\Pawze.Core.dll
+C:\dev\Pawze\Pawze\Pawze.Core\obj\Debug\Pawze.Core.pdb
